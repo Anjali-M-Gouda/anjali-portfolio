@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Anjali Gouda</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav  
+  id="navbar-top"  
+  class="navbar navbar-expand-lg navbar-light bg-black sticky-top color-white"  
+  style="box-shadow: -10px -10px 30px"  
+>  
+  <div class="container-fluid px-5">  
+   <a class="navbar-brand fw-bold fs-2" href="#" style="color: orange"  
+    >Portfolio</a  
+   >  
+   <button  
+    class="navbar-toggler"  
+    type="button"  
+    data-bs-toggle="collapse"  
+    data-bs-target="#navbarNav"  
+    aria-controls="navbarNav"  
+    aria-expanded="false"  
+    aria-label="Toggle navigation"  
+    style="background: gray"  
+   >  
+    <span class="navbar-toggler-icon"></span>  
+   </button>  
+   <div  
+    class="collapse navbar-collapse justify-content-center"  
+    id="navbarNav"  
+   >  
+    <ul class="navbar-nav gap-4" style="font-size: 1.1rem" aria-expanded="false">  
+      <li class="nav-item">  
+       <a class="nav-link" aria-current="page" href="#">Home</a>  
+      </li>  
+      <li class="nav-item">  
+       <a class="nav-link" href="#expertise">Expertise</a>  
+      </li>  
+      <li class="nav-item">  
+       <a class="nav-link" href="#about">About</a>  
+      </li>  
+      <li class="nav-item">  
+       <a class="nav-link" href="#projects">Projects</a>  
+      </li>  
+      <li class="nav-item">  
+       <a class="nav-link" href="#contact">Contact</a>  
+      </li>  
+    </ul>  
+   </div>  
+  </div>  
+</nav> 
+
+    <!-- navbar ends here -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div
+          class="col-10 col-md-6 text-center text-md-start"
+          data-aos="slide-right"
+        >
+          <h2 style="color: white">
+            Hello! I Am <br /><span class="c-orange">Anjali Gouda</span>
+          </h2>
+          <p class="text-muted">
+            I'm a Web Developer with 2.5 years of experience in ASP.NET MVC web
+            development. I specialize in building responsive web applications
+            and managing both frontend and backend development using modern
+            technologies like .NET Core, HTML, CSS, Bootstrap, and JavaScript.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="expertise">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Delivering Practical <br />
+          Web Development Solutions
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-3">
+        <!-- Web Design Card -->
+        <div class="col-12 col-md-4 mb-4" data-aos="fade-up">
+            <div class="service-card">
+                <div class="img">
+                    <img src="service-icon1.png" class="w-25 img-fluid" alt="" />
+                </div>
+                <div class="content mt-3">
+                    <h4>Web Design</h4>
+                    <p class="text-muted">
+                        Creating responsive, user-friendly designs using HTML, CSS, and
+                        Bootstrap for enhancement and user experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Web Development Card -->
+        <div class="col-12 col-md-4 mb-4" data-aos="fade-up">
+            <div class="service-card">
+                <div class="img">
+                    <img src="service-icon2.png" class="w-25 img-fluid" alt="" />
+                </div>
+                <div class="content mt-3">
+                    <h4>Web Development</h4>
+                    <p class="text-muted">
+                        Skilled in backend development with ASP.NET MVC and .NET Core,
+                        ensuring performance and scalability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Debugging Card -->
+        <div class="col-12 col-md-4 mb-4" data-aos="fade-up">
+            <div class="service-card">
+                <div class="img">
+                    <img src="service-icon3.png" class="w-25 img-fluid" alt="" />
+                </div>
+                <div class="content mt-3">
+                    <h4>Debugging</h4>
+                    <p class="text-muted">
+                        Resolving frontend and backend issues to maintain smooth
+                        functionality. And write test cases for optimizing code.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    </section>
+
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly" style="text-align: center;">
+        <div class="col-10 col-md-5 skill-with-icons" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-file-code-fill fs-1"></i>
+                <!-- Bootstrap icon for code brackets -->
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-braces fs-1"></i>
+                <!-- Bootstrap icon for code file -->
+                <br />
+                <span class="text">Jquery</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-window fs-1"></i>
+                <!-- Bootstrap icon for window/OS -->
+                <br />
+                <span class="text">ASP.NET MVC</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-database fs-1"></i>
+                <!-- Bootstrap icon for database -->
+                <br />
+                <span class="text">MySQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-cloud-fill fs-1"></i>
+                <!-- Bootstrap icon for cloud (web services) -->
+                <br />
+                <span class="text">.NET Core</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="skill-card ms-3 ms-md-0">
+                <i class="bi bi-git fs-1"></i>
+                <!-- Bootstrap icon for Git version control -->
+                <br />
+                <span class="text">GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" >
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Building Modern & Efficient Web Solutions</h3>
+            <p class="text-muted">
+              With 2.5 years of experience in ASP.NET MVC and .NET Core, I build
+              robust, user-friendly web applications. My focus is on creating
+              efficient solutions with responsive frontends and strong backend
+              integration.
+            </p>
+            <a onclick="redirect('Resume-Anjali.pdf')" class="c-btn">View CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill section ends here -->
+
+    <!-- portfolio section starts -->
+    <!-- portfolio section starts -->
+    <section class="portfolio mt-5" id="projects">
+      <div class="heading text-center">
+        <small>My Work</small>
+        <h3>Recent Projects</h3>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10 mt-3">
+          <div class="card project-card h-100" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">Registration Form</h5>
+              <p class="card-text">
+                Developed a student registration system that supports online and
+                offline payments, reducing delays.
+              </p>
+              <p>
+                <strong>Technologies Used:</strong> ASP.NET MVC, MySQL, HTML,
+                CSS, Bootstrap, jQuery
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10 mt-3">
+          <div class="card project-card h-100" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">DFHRMS Web Application</h5>
+              <p class="card-text">
+                Built a Trainer Attendance application with location-based
+                attendance restrictions to ensure trainers can only mark
+                attendance within the college premises.
+              </p>
+              <p>
+                <strong>Technologies Used:</strong> ASP.NET MVC, MySQL, HTML,
+                CSS, JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10 mt-3">
+          <div class="card project-card h-100" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">PDF Generation</h5>
+              <p class="card-text">
+                Implemented dynamic PDF generation by extracting data from the
+                database and enhancing the document with images for better
+                formatting.
+              </p>
+              <p>
+                <strong>Technologies Used:</strong> ASP.NET MVC, iTextSharp,
+                MySQL, HTML, CSS
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10 mt-3">
+          <div class="card project-card h-100" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">DFAppstore Web Application</h5>
+              <p class="card-text">
+                Developed a platform for users to browse and download DF apps,
+                with functionality for developers to upload APKs and details of
+                their apps.
+              </p>
+              <p>
+                <strong>Technologies Used:</strong> ASP.NET MVC, jQuery, HTML,
+                Bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10 mt-3">
+          <div class="card project-card h-100" data-aos="fade-up">
+            <div class="card-body">
+              <h5 class="card-title">Easy Attendance Web Application</h5>
+              <p class="card-text">
+                Created a system for students to log in, view personal details,
+                and generate QR codes for attendance tracking with date-wise
+                records.
+              </p>
+              <p>
+                <strong>Technologies Used:</strong> ASP.NET MVC, MySQL, HTML,
+                CSS, Bootstrap, jQuery, AJAX
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5 mt-3" id="contact">
+      <div class="heading text-center">
+        <small>Contact Me</small>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill fs-4"></i>
+            </div>
+            <div class="col-11">
+              <p>Vidyanagar, Hubli, Karnataka, India</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill fs-4"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 8762665358</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill fs-4"></i>
+            </div>
+            <div class="col-11">
+              <p>anjali.goudahnvr@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas fs-4"></i>
+            </div>
+            <div class="col-11">
+              <p
+                class="mt-1 ml-3"
+                style="cursor: pointer; width: fit-content"
+                onclick='redirect("https://www.linkedin.com/in/anjali-gouda-098b13235")'
+              >
+                Got to LinkedIn
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="pt-4" style="color: orange" data-aos="fade-up">Portfolio</h3>
+      <p>Copyright 2024 Anjali Gouda | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+
+      function redirect(url) {
+        window.open(url);
+      }
+
+      // Add event listener to navbar links to toggle collapse on click  
+      document.querySelectorAll('.nav-link').forEach(link => {  
+        link.addEventListener('click', () => {  
+        document.querySelector('#navbarNav').classList.toggle('show');  
+        });  
+      }); 
+    </script>
+    <!-- custom js file linking -->
+    <!-- <script src="js/script.js"></script> -->
+
+    <!-- Deployment -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBnYqj2P1NmXOtLd6EK7HepYJUpB_CR-M0",
+        authDomain: "portfolio-anjali.firebaseapp.com",
+        projectId: "portfolio-anjali",
+        storageBucket: "portfolio-anjali.appspot.com",
+        messagingSenderId: "503160273077",
+        appId: "1:503160273077:web:a1d6ee96cf6c0b978a26fc",
+        measurementId: "G-8L94QCV4X3",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+
+  <style>
+    .navbar-toggler {  
+       width: 45px;  
+       height: 34px;  
+       padding: 1px;  
+    }  
+    /* Applying Google font over the website */
+    body {
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 400;
+      background-color: #121212; /* Dark background */
+      color: #e0e0e0; /* Light text for readability */
+      overflow: none;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: orange;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000;
+    }
+
+    /* Styling menu icon */
+    .nav-menu {
+      border: none;
+      background-color: #767676 !important;
+      font-size: 1.5rem;
+      color: #fca61f;
+    }
+
+    /* Styling navbar links */
+    .navbar-nav a {
+      color: white; /* Light color for navbar links */
+      position: relative;
+      text-align: center;
+    }
+    .navbar-nav a:hover {
+      color: #fca61f;
+    }
+    .navbar-nav a:after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      top: 35px;
+      position: absolute;
+      background: #fca61f;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    .navbar-nav a:hover:after {
+      width: 100%;
+      left: 0;
+    }
+
+    /* Styling contact button */
+    .c-btn {
+      border: none;
+      background: #fca61f;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    /* Styling home section */
+    .home {
+      background: linear-gradient(33deg, #1e1e1e 0%, #2b2b2b 100%);
+      padding: 30px 0px 10px 0px;
+    }
+    .home h2 {
+      font-size: 3rem;
+      line-height: 4rem;
+      color: #ffffff; /* White heading */
+    }
+    .c-orange {
+      color: #fca61f;
+      font-weight: 700;
+      font-size: 4rem;
+    }
+    .home p {
+      width: fit-content;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #cfcfcf;
+    }
+    .h-btn:hover {
+      background: #fca61f;
+      color: #fff;
+      transform: translateY(-20px);
+      transition-duration: 1s;
+    }
+
+    /* Styling links */
+    .link {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #fca61f;
+      position: relative;
+    }
+    .link::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      top: 20px;
+      background-color: #fca61f;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    .link:hover {
+      color: #fca61f;
+    }
+    .link:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    /* Adding animation to home section image */
+    .home img {
+      animation: floatimg 4s ease-in-out infinite;
+    }
+
+    @keyframes floatimg {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(-24px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    /* Expertise section */
+    .heading small {
+      color: #fca61f;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .heading h3 {
+      margin-top: 0.5rem;
+      color: #fca61f;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .expertise h4 {
+      color: #e0e0e0;
+      font-weight: 700;
+    }
+    .expertise a {
+      text-decoration: none;
+      color: #fca61f;
+    }
+    .expertise a:hover {
+      color: #fca61f;
+    }
+    .expertise .service-card {
+      text-align: center;
+      padding: 15px 15px;
+      border-radius: 0.7rem;
+      background-color: #1f1f1f;
+    }
+
+    /* Skill section */
+    .skill {
+      background-color: #1a1a1a;
+    }
+    .progress-card {
+      padding: 12% 10% 10% 15%;
+      background-color: #242424;
+      text-align: center;
+      border-radius: 10%;
+    }
+    .progress-card:hover {
+      transform: scale(1.1, 1.1);
+      transition-duration: 0.6s;
+    }
+    .circular-progress {
+      position: relative;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .circular-progress::before {
+      content: "";
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      background-color: #121212;
+    }
+    .progress-value {
+      position: relative;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    /* Portfolio section */
+    #myBtnContainer {
+      margin-bottom: 45px;
+    }
+    #myBtnContainer button {
+      border: none;
+      color: #fca61f;
+      background: transparent;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0 25px;
+    }
+    #myBtnContainer button:hover {
+      color: #fca61f;
+    }
+    #myBtnContainer button:focus {
+      outline: none;
+    }
+
+    /* Testimonial section */
+    .testimonial img:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 1s;
+    }
+    .testimonial h4 {
+      color: #e0e0e0;
+    }
+    .testimonial i {
+      font-size: 2.9rem;
+      color: #fca61f;
+    }
+    .testimonial .nextprev-btn {
+      border: none;
+      background-color: #121212;
+    }
+    .prev:hover,
+    .prev-btn:hover {
+      color: #fca61f;
+      transform: translateX(-10px);
+      transition-duration: 1s;
+    }
+    .next:hover,
+    .next-btn:hover {
+      color: #fca61f;
+      transform: translateX(10px);
+      transition-duration: 1s;
+    }
+
+    /* Blog section */
+    .blog {
+      background-color: #1f1f1f;
+    }
+    .blog .blogpost .card {
+      border: none;
+      border-radius: 5%;
+    }
+    .blog .blogpost small {
+      color: #fca61f;
+      font-size: 1.1rem;
+    }
+    .blog .blogpost h4,
+    .blogpost a {
+      color: #e0e0e0;
+      font-weight: 700;
+      margin-top: 1rem;
+      text-decoration: none;
+    }
+    .blogpost a:hover {
+      color: #fca61f;
+    }
+    .blog .blogpost .read-more-btn {
+      text-decoration: none;
+      color: #fca61f;
+      font-size: 1.1rem;
+    }
+    .blog .blogpost .read-more-btn:hover {
+      color: #fca61f;
+    }
+
+    /* Contact section */
+    .contact {
+      background-color: #1c1c1c;
+    }
+    .contact-details i {
+      font-size: 1.5rem;
+      color: #fca61f;
+    }
+    .contact-details p {
+      font-size: 1.2rem;
+      margin-left: 1rem;
+      color: #e0e0e0;
+    }
+    .contact-form .form-control:focus {
+      box-shadow: none;
+      border: 1px solid #fca61f;
+    }
+    .contact-form .form-control {
+      padding: 10px 10px;
+      width: 80%;
+      background-color: #2b2b2b;
+      color: #e0e0e0;
+    }
+
+    /* Footer section */
+    footer {
+      background-color: #121212;
+    }
+    footer .link-group a {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #6c757d;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    footer .link-group a:hover {
+      color: #fca61f;
+    }
+    .social-links button {
+      border: none;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+      background-color: #121212;
+      padding: 14px 15px 10px 15px;
+    }
+    .social-links button:hover {
+      color: #fff;
+      transform: translateY(-20px);
+      transition-duration: 1s;
+    }
+
+    /* Back to top button */
+    #btn-back-to-top {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      font-size: 1.4rem;
+      background-color: #fca61f;
+      color: #fff;
+      animation: pulse 3s infinite;
+    }
+    .c-btn {
+      background-color: #fca61f;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    /* Project card hover effects */
+    .project-card {
+      overflow: hidden;
+      position: relative;
+      border-radius: 10%;
+      background-color: #2b2b2b; /* Background color for project card */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Scale effect on hover */
+    .project-card:hover {
+      transform: scale(1.05); /* Slightly increase size on hover */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+    }
+  </style>
+</html>
